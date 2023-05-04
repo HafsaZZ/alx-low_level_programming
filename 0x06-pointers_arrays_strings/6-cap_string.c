@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * isLower - determines whether ascii is lowercase
- * @c: character
- * Return: 1 if true, 0 if false
+ * cap_string - capitalizes all words of a string
+ * @n: input string
+ * Return: string with capitalized words
  */
 char *cap_string(char *n)
 {
