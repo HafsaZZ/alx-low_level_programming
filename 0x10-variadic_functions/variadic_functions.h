@@ -18,4 +18,15 @@ void print_str(va_list list);
 
 int _putchar(char c);
 
+/**
+ * struct printTypeStruct - structure definition of a printTypeStruct
+ * @type: type
+ * @printer: function to print
+ */
+typedef struct printTypeStruct
+{
+char *type;
+void (*printer)(va_list);
+} printTypeStruct;
+
 #endif
