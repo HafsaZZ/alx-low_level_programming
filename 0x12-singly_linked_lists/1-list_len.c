@@ -9,7 +9,7 @@
 size_t list_len(const list_t *h)
 {
 	size_t c = 0;
-	const list *current;
+	const list_t *current = h;
 
 	while (current != NULL)
 	{
