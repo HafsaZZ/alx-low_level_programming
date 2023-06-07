@@ -1,17 +1,17 @@
 #include "lists.h"
 
 /**
- * _ra - rellocates memory for an array of pointers
+ * _ra - reallocates memory for an arrayof pointers
  * @list: the old list
  * @size: size of the new list
  * @new: new node to add 
  *
- * Return: pointer to the new node
+ * Return: pointer to the new list
  */
 
 listint_t **_ra(listint_t **list, size_t size, listint_t *new)
 {
-	listint_t *newlist;
+	listint_t **newlist;
 	size_t i;
 
 	newlist = malloc(size * sizeof(listint_t *));
