@@ -1,6 +1,8 @@
-#ifndef MAIN_
+#ifndef MAIN_H
 #define MAIN_H
 
+#define MAXSIZE 1204
+#define SE STDERR_FILENO
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
